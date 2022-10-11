@@ -1,0 +1,55 @@
+body {
+  background-color: aqua;
+}
+.mc {
+  margin-left: 350px;
+  font-size: xx-;
+  font-family: "Courier New", Courier, monospace;
+}
+.button {
+  display: flex;
+  gap: 90px;
+  margin-top: 200px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.camarowindow {
+  position: absolute;
+  border: 8px solid red;
+  padding-top: 150px;
+  padding-bottom: 90px;
+  margin-left: 150px;
+  margin-right: 150px;
+  align-content: center;
+  justify-content: center;
+  margin-top: 0px;
+}
+.mustangwindow {
+  position: absolute;
+  border: 8px solid red;
+  padding-top: 90px;
+  padding-bottom: 150px;
+  margin-left: 150px;
+  margin-right: 150px;
+  align-content: center;
+  margin-top: 0px;
+
+  justify-content: center;
+}
+.dodgewindow {
+  position: absolute;
+  border: 8px solid red;
+  padding-top: 90px;
+  padding-bottom: 150px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 0px;
+  align-content: center;
+  justify-content: center;
+}
+
+.hidden {
+  display: none;
+}
